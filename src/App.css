@@ -10,7 +10,7 @@ h1{
   height: 50px;
   text-align: right;
   color: slategray;
-  background-color: rgba(195, 0, 255, 0.596);
+  background-color: rgba(195, 0, 255, 0.554);
   z-index: -3;
 
 }
@@ -31,8 +31,9 @@ h1{
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  0% { transform: rotate(0deg); }
+  50%{ transform: rotate(90deg); }
+  100%{ transform: rotate(0deg); }
 }
 
 .form{

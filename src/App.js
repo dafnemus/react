@@ -72,6 +72,11 @@ function Edicion(){
   )
 }
 class Formulario extends React.Component{
+  state={
+    nombre:'',
+    comentario: ''
+  }
+  handl
   
   render(){
   return(
