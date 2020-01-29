@@ -15,6 +15,7 @@ class App extends  React.Component {
       <div className="App">
         <div className="App-header">
           <h1 className="App-logo"></h1>
+
           <Dafne/>
           <Arte/>
           <Front/>
