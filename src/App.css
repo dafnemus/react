@@ -10,18 +10,19 @@ h1{
   height: 50px;
   text-align: right;
   color: slategray;
-  background-color: rgba(195, 0, 255, 0.554);
+  background-color: rgba(205, 219, 198, 0.507);
   z-index: -3;
 
 }
 .a{
-  background-color: violet;
+  background-color: rgba(42, 33, 121, 0.753);
   height: 100px;
 }
 
 .App-header {
-  background-color: rgba(177, 109, 109, 0.842);
-  height: auto;
+  background-color: rgba(55, 39, 126, 0.377);
+  height: 300vh;
+  width: 200vh;
   padding: 20px;
   color: white;
 }

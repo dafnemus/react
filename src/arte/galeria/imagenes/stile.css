@@ -1,9 +1,10 @@
 .contenedor{
     display:flex;
+    flex-direction: row;
 }
 img{
-    width: 500px;
-    height: 350px;
+    width: 310px;
+    height: 250px;
     cursor: pointer;
 }
 
