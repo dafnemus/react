@@ -4,22 +4,21 @@ import './style.css';
 import Expandida from './expansion/index';
 
 class Galeria extends React.Component{
-    state={isVisible:false,
-    src:''}
+    state={isOpen:false}
+    
+    openModal=(src)=>this.setState({isOpen:true, src:src});
 
-    handelClick = (src)=>this.setState({isVisible: true,
-                                        src: src})
+    closeModal=()=>this.setState({isOpen:false})
+
     render(){
-        const {isVisible}=this.state;
-    return(
-    <div>
-        <Imagenes onClick={this.handelClick}></Imagenes>
-        {isVisible && (
-            <Expandida src={this.state.src}/>
-        )}
-    </div>
-    );
- }
+        return(
+            <div>
+                <Imagenes onClick={this.openModal}></Imagenes>
+                {this.state.isOpen === true && <Expandida  src={this.state.src} isOpen={this.state.isOpen} closeModal={this.closeModal}></Expandida>}
+                
+            </div>
+        )
+    }
 }
 
 

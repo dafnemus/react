@@ -1,12 +1,18 @@
 import React from 'react';
 import './style.css';
+import Boton from './botones/index';
 
-function Expandida(props){
+class Expandida extends React.Component{
+  render(){ 
     return(
-        <div>
-                <img src={props.src} className='expandida' alt=""></img>
+        
+        <div className='container'>
+        {console.log(this.props.closeModal)}
+                <img src={this.props.src} className='expandida' alt=""></img>
+                <Boton handleClick={this.props.closeModal}></Boton>
             </div>
     );
+  }
 }
 
 export default Expandida

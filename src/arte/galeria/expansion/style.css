@@ -1,7 +1,24 @@
-.expandida{
-    position: relative;
-    top: 0;
-    width: 70%;
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 30%;
+
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.685);
+    min-height: 100vh;
+    min-width:100vw ;
+    
+
+
+}.expandida{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150vh;
     height: auto;
+
     
 }

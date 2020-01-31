@@ -13,8 +13,8 @@ class Imagenes extends Component{
         return(
             <div className="contenedor">
                 <img src={composicion} className={this.props.className}onClick={this.handleClick} alt="composicion" />
-                <img src={compo2}      className={this.props.className} onClick={this.handleClick} alt="compo2" />
-                <img src={compo4}      className={this.props.className} onClick={this.handleClick} alt="compo4" />
+                <img src={compo2}  className={this.props.className} onClick={this.handleClick} alt="compo2" />
+                <img src={compo4}  className={this.props.className} onClick={this.handleClick} alt="compo4" />
                 <img src={japon}  className={this.props.className}   onClick={this.handleClick} alt="japon"/>
             </div>
         );
