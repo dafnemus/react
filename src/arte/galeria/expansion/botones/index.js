@@ -5,7 +5,7 @@ function Boton(props){
 
     return(
         <div >
-            <button onClick={props.handleClick} className='btn'> </button>
+            <button onClick={props.handleClick} className='btn'id={props.id}><img src={props.icono}alt="icono"/></button>
           
         </div>
       

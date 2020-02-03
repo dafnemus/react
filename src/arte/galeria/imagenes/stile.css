@@ -6,5 +6,6 @@ img{
     width: 310px;
     height: 250px;
     cursor: pointer;
+    object-fit: cover;
 }
 
