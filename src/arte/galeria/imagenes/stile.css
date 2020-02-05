@@ -1,11 +1,4 @@
-.contenedor{
-    display:flex;
-    flex-direction: row;
+.imagen{
+    width: 311px;
+    height: 360px;
 }
-img{
-    width: 310px;
-    height: 250px;
-    cursor: pointer;
-    object-fit: cover;
-}
-
