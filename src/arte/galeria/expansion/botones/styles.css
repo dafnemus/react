@@ -1,3 +1,7 @@
+.btn {
+    background: none;
+    border: 0;
+}
 
 .btn img {
         position: absolute;

@@ -12,7 +12,7 @@ class Expandida extends React.Component{
     return(
         
         <div className='container'>
-                <img src={this.props.src} className='expandida' alt=""></img>
+                <img src={this.props.photo} className='expandida' alt=""></img>
                 <Boton icono={cruz} handleClick={this.props.closeModal} id='cierre'></Boton>
                 <Boton icono={atras} id='anterior'></Boton>
                 <Boton icono={adelante} id='siguiente'></Boton>
