@@ -1,0 +1,45 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px;
+  
+  }
+  .contenedorNombre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    margin-right: 192px;
+    
+  }
+  .contenedorIdeas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    margin: 5px;
+  }
+  .boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    height: 30px;
+    background-color: rgb(130, 182, 47);
+    font-size: 20px;
+  }
+   label{
+     font-size: 111%;
+     margin: 8px;
+   }
+   input{
+     width: 100px;
+     height: 30px;
+     border-radius: 4px;
+   }
+   textarea{
+     border-radius: 7px;
+     width: 300px;
+     height: 250px;
+   }

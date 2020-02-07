@@ -21,7 +21,7 @@ h1{
 
 .App-header {
   background-color: #222;
-  height: auto;
+  height: 1100vh;
   padding: 20px;
   color: white;
 }
@@ -36,48 +36,3 @@ h1{
   100%{ transform: rotate(0deg); }
 }
 
-.form{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 50px;
-
-}
-.contenedorNombre{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-self: center;
-  margin-right: 192px;
-  
-}
-.contenedorIdeas{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-self: center;
-  margin: 5px;
-}
-.boton{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-self: center;
-  height: 30px;
-  background-color: rgb(130, 182, 47)
-}
- label{
-   font-size: 111%;
-   margin: 8px;
- }
- input{
-   border-color:rgb(126, 245, 14);
-   width: 100px;
-   height: 30px;
-   border-radius: 4%;
- }
- textarea{
-   border-radius: 3%;
-   width: 300px;
-   height: 250px;
- }
