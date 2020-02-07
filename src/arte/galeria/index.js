@@ -15,7 +15,7 @@ class Galeria extends React.Component{
            
            <div>
                <Cuadrilla photo={photo} openModal={this.openModal} ></Cuadrilla>
-               {this.state.isOpen === true && <Expandida src={this.state.src} isOpen={this.state.isOpen} closeModal={this.closeModal}></Expandida>}
+               {this.state.isOpen === true && <Expandida isOpen={this.state.isOpen} closeModal={this.closeModal} photo={photo.id}></Expandida>}
               
            </div>
 
