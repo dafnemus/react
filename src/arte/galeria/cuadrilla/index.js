@@ -9,7 +9,7 @@ function Cuadrilla(props){
      <div className="galeria">
          {
              props.photo.map ((photo)=>{
-                 return <Imagenes key={photo.id} src={photo.url} handleClick={props.openModal}
+                 return <Imagenes key={photo.id} src={photo.url} id={photo.id} handleClick={props.openModal}
     />
              })
          }

@@ -9,7 +9,12 @@ import atras from './iconos/avance-rapido.svg';
 
 class Expandida extends React.Component{
 
-  atras=()=>{};
+  atras=()=>{
+    let index = this.props.index - 1 
+    let url=this.props.photo[index].url
+
+    this.props.updateIndex(url, index)
+  };
 
   siguiente=()=>{};
 
@@ -17,9 +22,9 @@ class Expandida extends React.Component{
     return(
       
       <div className='container'>
-                <img photo={this.props.photo} className='expandida' alt=""></img>
+                <img src={this.props.url} className='expandida' alt=""></img>
                 <Boton icono={cruz} handleClick={this.props.closeModal} id='cierre'></Boton>
-                <Boton icono={atras} id='anterior'></Boton>
+                <Boton handleClick={this.atras} icono={atras} id='anterior'></Boton>
                 <Boton icono={adelante} id='siguiente'></Boton>
         </div>
     );
