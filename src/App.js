@@ -7,8 +7,7 @@ class App extends Component {
    archivarInfo:''
   };
 
-  enviar=(datos) => {
-    this.setState({archivarInfo:datos})};
+  enviar= (datos) => this.setState({archivarInfo:datos});
 
 
   render() {
@@ -17,6 +16,10 @@ class App extends Component {
         <div className="App-header">
           <h1 className="App-logo"></h1>
             <Formulario enviar={this.enviar}/>
+            <p>{this.state.nombre}</p>
+            <p> {this.state.comentario}</p>
+
+            
            </div>
             </div>
         
