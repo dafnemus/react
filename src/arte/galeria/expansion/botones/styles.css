@@ -36,3 +36,11 @@
     top: 44%;
     right: 21%;
 }
+
+span{
+    position: absolute;
+    bottom: 7%;
+    left:50%;
+    font-size: 150%;
+    background-color: black;
+}

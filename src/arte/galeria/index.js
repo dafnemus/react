@@ -7,10 +7,10 @@ class Galeria extends React.Component{
     state={
         isOpen:false,
         url: '',
-        index: 1  
+        index: 0,
     }
   
-   openModal=(url, index)=>this.setState({isOpen:true, url, index:parseInt(index)})
+   openModal=(url, index,title)=>this.setState({isOpen:true, url, index })
    closeModal=()=>this.setState({isOpen:false})
    updateIndex=(url, index)=>this.setState({url,index})
 

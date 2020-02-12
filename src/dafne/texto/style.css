@@ -1,0 +1,10 @@
+.caja{
+display: flex;
+flex-direction: column;
+
+}
+
+.texto{
+    text-align: center;
+    font-size: 150%;
+}
