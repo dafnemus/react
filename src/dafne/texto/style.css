@@ -1,10 +1,7 @@
-.caja{
-display: flex;
-flex-direction: column;
 
-}
 
 .texto{
-    text-align: center;
-    font-size: 150%;
+    text-align: left;
+    font-size: 30px;
+    max-width: 70%;
 }

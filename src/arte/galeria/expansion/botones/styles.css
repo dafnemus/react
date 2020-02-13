@@ -42,5 +42,7 @@ span{
     bottom: 7%;
     left:50%;
     font-size: 150%;
+    padding: 7px;
     background-color: black;
+
 }
