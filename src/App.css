@@ -1,35 +1,26 @@
 .App {
   text-align: left;
 }
-h1{
-  font-size: 300%;
 
-}
 .App-logo {
   animation: App-logo-spin infinite 10s linear;
   height: 50px;
   text-align: right;
-  color: slategray;
-  background-color: rgba(205, 219, 198, 0.507);
+  background-color: rgba(77, 79, 206, 0.507);
   z-index: -3;
 
 }
-.a{
-  background-color: rgba(42, 33, 121, 0.753);
-  height: 100px;
-}
+
 
 .App-header {
-  background-color: rgba(55, 39, 126, 0.377);
-  height: 300vh;
+  background-color: rgba(111, 111, 116, 0.541);
+  height: auto;
   width: 200vh;
-  padding: 20px;
-  color: white;
+  padding: 15px;
+  color: black;
 }
 
-.App-intro {
-  font-size: large;
-}
+
 
 @keyframes App-logo-spin {
   0% { transform: rotate(0deg); }
@@ -37,48 +28,3 @@ h1{
   100%{ transform: rotate(0deg); }
 }
 
-.form{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 50px;
-
-}
-.contenedorNombre{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-self: center;
-  margin-right: 192px;
-  
-}
-.contenedorIdeas{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-self: center;
-  margin: 5px;
-}
-.boton{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-self: center;
-  height: 30px;
-  background-color: rgb(130, 182, 47)
-}
- label{
-   font-size: 111%;
-   margin: 8px;
- }
- input{
-   border-color:rgb(126, 245, 14);
-   width: 100px;
-   height: 30px;
-   border-radius: 4%;
- }
- textarea{
-   border-radius: 3%;
-   width: 300px;
-   height: 250px;
- }
