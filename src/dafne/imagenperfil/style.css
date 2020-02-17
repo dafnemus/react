@@ -1,5 +1,13 @@
 .foto-perfil54{
     width: 350px;
     height: 350px;
- 
+    border-radius: 50%;
+    
 }
+.pajaro{
+    position: absolute;
+    right: 113px;
+    top: 26%;
+    width: 350px;
+    height: 276px;
+}        

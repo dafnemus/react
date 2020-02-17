@@ -1,0 +1,19 @@
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pdf-epigrafe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video-epigrafe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

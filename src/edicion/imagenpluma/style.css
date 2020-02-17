@@ -1,4 +1,6 @@
 .imagen-pluma{
     width:300px;
-    
+    position: relative;
+    left: 75%;
+    bottom: 300px;
 }

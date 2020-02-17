@@ -14,8 +14,16 @@ function Edicion(){
                   <div>
                     <Titulo text="Edición"/>
                     <Epigrafe text="Curso en la  Facultad de Filosofía y Letras(UBA) la carrera de edición, en la cual me tocó realizar un catálogo de Filosofía Feminista y ser por una vez Booktubder desde la edición del video."/>
+                    <div className="logos">
+                    <div className="pdf-epigrafe">
                     <ImagenPdf logoPdf={logoPdf}/>
+                    <Epigrafe text="Catálogo Filosofía Feminista"/>
+                    </div>
+                    <div className="video-epigrafe">
                     <ImagenVideo logoVideo={logoVideo}/>
+                    <Epigrafe  text="Booktubers del Lector"/>
+                    </div>
+                    </div>
                     <ImagenPluma pluma={plumaurl}/>
 
                   </div>

@@ -1,8 +1,9 @@
 import React from 'react';
+import './style.css';
 
 function ImagenPdf(props){
     return(
-        <img  src={props.logoPdf.url} alt=""></img>
+        <img className="logo-pdf" src={props.logoPdf.url} alt=""></img>
     );
 }
 

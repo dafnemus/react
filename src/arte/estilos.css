@@ -4,3 +4,12 @@
     justify-content: center;
     margin: 10px;
 }
+
+.mano{
+    position: absolute;
+    right: 272px;
+    top:93%;
+    width: 129px;
+    transform: rotate(111deg);
+    margin-left: 57px;    
+}

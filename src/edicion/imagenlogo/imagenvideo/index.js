@@ -1,8 +1,9 @@
 import React from 'react';
+import './style.css';
 
 function ImagenVideo(props){
     return(
-        <img  src={props.logoVideo.url} alt=""></img>
+        <img className="logo-video" src={props.logoVideo.url} alt=""></img>
     );
 }
 
