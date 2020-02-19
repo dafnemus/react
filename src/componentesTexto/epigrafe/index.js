@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
 
-function Epigrafe({text}){
+function Epigrafe({ text, className}){
     return(
-        <p className="epigrafe">{text}</p>
+        <p className={"epigrafe " + className}>{text}</p>
     );
 };
 

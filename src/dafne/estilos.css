@@ -1,3 +1,10 @@
+.marco1{
+    width:133px;
+    position: absolute;
+    transform: rotate(45deg);
+    top:10%;
+    left: 6px;
+}
 .perfil{
     display: flex;
     flex-direction: row;

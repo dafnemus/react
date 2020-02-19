@@ -7,7 +7,7 @@ function Front(){
     return(
     <div>
   
-        <Titulo text="Front End"/>
+        <Titulo className="marco3" text="Front End"/>
         <Epigrafe text="Señor Bigotes es lo primero que logre desarrollar en equipo, donde solo utilizamos HTML, CSS y un poco de JS."/>
       
     </div>

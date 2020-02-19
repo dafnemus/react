@@ -4,7 +4,13 @@
     justify-content: center;
     margin: 10px;
 }
-
+.marco2{
+    width:133px;
+    position: absolute;
+    transform: rotate(45deg);
+    top:82%;
+    left: 6px;
+}
 .mano{
     position: absolute;
     right: 272px;

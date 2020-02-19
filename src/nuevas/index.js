@@ -8,8 +8,8 @@ import './styles.css';
 function Nuevas(){
     return(
                     <div>
-                      <Titulo text="Nuevas Experiencias"/>
-                      <Epigrafe text="A partir de abril de 2017 hasta julio 2018, aunque cada vez que puedo participo de alguna actividad, me sume al Voluntariado de biorremediación de la Reserva Ecológica Lago Lugano, con el objetivo de recuperar y sanear la costa del Arroyo Cildañez. Por medio de limpieza de costa, el armado de sistemas para lograr el saneamiento de aguas, plantaciones de flora nativa de la zona ribereña de Buenos Aires y mucha conciencia. "/>
+                      <Titulo className="marco4" text="Nuevas Experiencias"/>
+                      <Epigrafe  className="nuevas-text" text="A partir de abril de 2017 hasta julio 2018, aunque cada vez que puedo participo de alguna actividad, me sume al Voluntariado de biorremediación de la Reserva Ecológica Lago Lugano, con el objetivo de recuperar y sanear la costa del Arroyo Cildañez. Por medio de limpieza de costa, el armado de sistemas para lograr el saneamiento de aguas, plantaciones de flora nativa de la zona ribereña de Buenos Aires y mucha conciencia. "/>
                       <ImagenMarco image={image}/>
                       <ImagenMarco image={image}/>
 
