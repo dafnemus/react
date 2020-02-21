@@ -7,9 +7,8 @@ class Video extends React.Component{
       return(
         
         <div>
-                  <video>
-                      <iframe src="https://youtu.be/U0Q78L6rmwE"></iframe>
-                  </video>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/U0Q78L6rmwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <button onClick={this.props.closeModal}>X</button>
         </div>
       );
     }

@@ -15,7 +15,7 @@ class Edicion extends React.Component{
     open:false
   }
 
-  openModal=(src)=>this.setState({open:true, src})
+  openModal=()=>this.setState({open:true})
   closeModal=()=>this.setState({open:false})
 
 
@@ -31,7 +31,7 @@ class Edicion extends React.Component{
                     </div>
                     <div className="video-epigrafe">
                     <ImagenVideo logoVideo={logoVideo} openModal={this.openModal}/>
-                    {this.state.open === true && <Video open={this.state.open} src={this.state.src} closeModal={this.closeModal}/>}
+                    {this.state.open === true && <Video open={this.state.open} closeModal={this.closeModal}/>}
                     <Epigrafe  text="Booktubers del Lector"/>
                     </div>
                     </div>
