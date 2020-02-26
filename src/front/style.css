@@ -2,6 +2,17 @@
     width:133px;
     position: absolute;
     transform: rotate(45deg);
-    top:163%;
+    top:1018px;
     left: 6px;
+}
+.bigotes-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo-bigotes{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+
 }

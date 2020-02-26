@@ -1,6 +1,7 @@
 .cerrar{
-    top: 2150px;
+    top: 2585px;
     position: absolute;
     width: 50px;
     background: transparent;
+    cursor: pointer;
 }

@@ -13,18 +13,13 @@ class App extends  React.Component {
     return (  
 
       <div className="App">
-        <div className="App-header">
-          <h1 className="App-logo"></h1>
-
+         
           <Dafne/>
           <Arte>
           </Arte>
           <Front/>
           <Nuevas/>
           <Edicion/>
-          
-          <h1 className="App-logo"></h1>
-           </div>
             </div>
         
     );
