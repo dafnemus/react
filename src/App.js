@@ -1,17 +1,24 @@
 import React, { Component } from 'react';
+import {Provider} from './context';
+import Navbar from './navbar';
+import Form from './form';
 import './App.css';
 
+
 class App extends Component {
+  state={
+    nombre:'',
+    setNombre: ({ value }) => this.setState({ nombre: value }),
+    apellido:'',
+    setApellido: ({ value }) => this.setState({ apellido: value })
+  }
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src="ailurophile.png" className="App-logo" alt="logo" />
-          <h2>Dafne Musante</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <Provider value={this.state}>
+      <Navbar/>
+      <Form/>
+      </Provider>
       </div>
     );
   }
