@@ -1,3 +1,4 @@
+Poniendo a prueba misconocimientos en react, tratando de hacer mi porfolio.
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
