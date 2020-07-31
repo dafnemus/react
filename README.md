@@ -1,4 +1,4 @@
-Poniendo a prueba misconocimientos en react, tratando de hacer mi porfolio.
+## Curso Hack the Gap de Wolox y Empujar proyecto Porfolio personal con React, aplicando lo aprendidoen el curso.
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
